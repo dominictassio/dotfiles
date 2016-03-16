@@ -1,0 +1,5 @@
+[user]
+	name = Dominic Tassio
+	email = dominic.tassio@gmail.com
+[core]
+	editor = nvim
