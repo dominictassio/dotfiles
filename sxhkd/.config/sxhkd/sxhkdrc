@@ -8,11 +8,7 @@ super + Return
 
 # program launcher
 super + space
-	dmenu_run
-
-# web browser
-super + Tab
-	google-chrome-stable
+	rafi -show run
 
 #
 # bspwm hotkeys
