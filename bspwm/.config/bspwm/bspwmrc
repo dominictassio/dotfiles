@@ -1,7 +1,8 @@
 #! /bin/bash
 
+bspc config top_padding		32
 bspc config border_width	2
-bspc config window_gap		0
+bspc config window_gap		2
 
 bspc config split_ratio		0.5
 bspc config borderless_monocle	true
@@ -13,5 +14,9 @@ bspc monitor -d unu di tri kvar kvin ses sep ok
 
 bspc config normal_border_color		"#181818"
 bspc config active_border_color		"#181818"
-bspc config focused_border_color	"#282828"
+bspc config focused_border_color	"#7cafc2"
+
+bspc rule -a firefox desktop=^1
+bspc rule -a termite desktop=^2
+bspc rule -a oblogout floating=on fullscreen=on
 
