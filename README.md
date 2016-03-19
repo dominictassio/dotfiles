@@ -7,7 +7,6 @@
 
 # Usage
 
-```bash
-$ cd dotfiles
-$ stow #folder name
-```
+`$ cd dotfiles`
+
+`$ stow folder/` or `$ xstow folder/`
